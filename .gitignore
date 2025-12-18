@@ -1,0 +1,23 @@
+# --- Python ---
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- VS Code ---
+.vscode/
+*.code-workspace
+
+# --- Environment/Secrets ---
+.env
+*.secret
+
+# --- Operating System ---
+.DS_Store
+Thumbs.db
+
+# --- Project Specific ---
+# If you generate local RDF graphs or temporary logs
+*.log
+*.sqlite
