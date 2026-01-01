@@ -1,0 +1,8 @@
+# SPDX-License-Identifier: CC0-1.0
+id: ecdsa
+name: Elliptic Curve Digital Signature Algorithm
+cryptoClass: Asymmetric-Key-Algorithm/Digital-Signature
+oid: 1.2.840.10045.4.3.2 # Base OID for ecdsa-with-sha256
+standard: "FIPS 186-5"
+commonkeySize: '256'
+specifiedkeySize: "{min: 224, max: 521}"

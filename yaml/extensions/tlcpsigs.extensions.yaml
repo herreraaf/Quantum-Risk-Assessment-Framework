@@ -1,0 +1,10 @@
+# SPDX-License-Identifier: CC0-1.0
+extends: tlcp-sigs
+
+variants:
+  - id: "SM2-with-SM3"
+    name: "sm2_with_sm3"
+    gmssl_oid: "1.2.156.10197.1.501" 
+    components:
+      primitive: "sm2:SM2"
+      hash: "sm3:SM3"

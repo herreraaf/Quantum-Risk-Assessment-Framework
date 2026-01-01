@@ -1,0 +1,29 @@
+# SPDX-License-Identifier: CC0-1.0
+extends: ecdsa
+mechanism: "Elliptic Curve Digital Signature Algorithm (Weierstrass)"
+vulnerabilityProfile: "High sensitivity to RNG (Random Number Generator) failure."
+
+variants:
+  - id: ecdsa_secp256r1
+    name: ecdsa_secp256r1
+    oid: 1.2.840.10045.4.3.2 # ecdsa-with-sha256
+    securityLevel: 128
+    q_p: 0.75
+    iana_id: 
+    note: "Industry standard. Matches AES-128 security."
+
+  - id: ecdsa_secp384r1
+    name: ecdsa_secp384r1
+    oid: 1.2.840.10045.4.3.3 # ecdsa-with-sha384
+    securityLevel: 192
+    q_p: 0.5
+    iana_id: 
+    note: "Used for CNSA (Commercial National Security Algorithm) compliance."
+
+  - id: ecdsa_secp521r1
+    name: ecdsa_secp521r1
+    oid: 1.2.840.10045.4.3.4 # ecdsa-with-sha512
+    securityLevel: 256
+    q_p: 0.25
+    iana_id: 
+    note: "Strongest NIST curve; rarely found in standard web certificates."

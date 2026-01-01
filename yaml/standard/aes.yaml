@@ -1,0 +1,7 @@
+# SPDX-License-Identifier: CC0-1.0
+id: aes
+oid: 2.16.840.1.101.3.4.1
+name: Advanced Encryption Standard
+cryptoClass: Symmetric-Key-Algorithm/Block-Cipher
+commonkeySize: '256'
+specifiedkeySize: "{min: 128, max: 256}"

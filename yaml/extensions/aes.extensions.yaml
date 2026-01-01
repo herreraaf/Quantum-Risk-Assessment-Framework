@@ -1,0 +1,31 @@
+# SPDX-License-Identifier: CC0-1.0
+extends: aes
+mechanism: "Substitution-Permutation Network (SPN)"
+
+variants:
+  - id: aes-128
+    name: aes-128
+    securityLevel: 128
+    oid: 2.16.840.1.101.3.4.1.2 
+    nistsecuritycategory: 1
+    q_p : 0.5 
+
+  - id: aes-192
+    name: aes-192
+    securityLevel: 192
+    oid: 2.16.840.1.101.3.4.1.22
+    nistsecuritycategory: 3
+    q_p : 0.25 
+
+  - id: aes-256
+    name: aes-256
+    securityLevel: 256
+    oid: 2.16.840.1.101.3.4.1.42
+    nistsecuritycategory: 5
+    q_p : 0
+
+notes: >
+  Standardized in FIPS 197. For Post-Quantum compliance, AES-256 
+  is mandatory as Grover's algorithm reduces security to 128 bits.
+
+

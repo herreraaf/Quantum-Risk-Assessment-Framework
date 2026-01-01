@@ -1,0 +1,21 @@
+extends: SM9
+securityLevel: 128
+mechanism: "Bilinear Pairing"
+
+sub_functions:
+  - id: sm9-signature
+    name: SM9-1 Digital Signature Algorithm
+    oid: 1.2.156.10197.1.302.1
+    standard_part: "GB/T 38635.2-2020"
+  
+  - id: sm9-key-exchange
+    name: SM9-2 Key Exchange Protocol
+    oid: 1.2.156.10197.1.302.2
+  
+  - id: sm9-encryption
+    name: SM9-3 Public Key Encryption
+    oid: 1.2.156.10197.1.302.3
+
+notes: >
+  Used primarily for secure email and mobile in Guomi systems. 
+  Removes the need for X.509 certificates by using identity strings.

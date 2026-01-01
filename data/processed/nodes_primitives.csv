@@ -1,0 +1,33 @@
+Id,Label,Type,Centrality_Score,label_primitives,section,q_p,sec_level,css_qp,pims_qp
+Local_Research_Node,Local_Research_Node,Origin,0,Local_Research_Node,,,,,
+Data In Transit,Data In Transit,Domain,241,Data In Transit,,,,,
+TLCP,TLCP,Protocol,1,TLCP,,,,,
+GmSSL 3.1.2 Dev,GmSSL 3.1.2 Dev,Implementation,1,GmSSL 3.1.2 Dev,,,,,
+SM2,sm2p256v1,Primitive,2,sm2p256v1,PRIMITIVE,0.75,128.0,,
+SMS4,sm4,Primitive,1,sm4,PRIMITIVE,0.5,128.0,,
+SM3,sm3,Primitive,2,sm3,HASH,,,0.5,0.0
+TLS 1.3,TLS 1.3,Protocol,240,TLS 1.3,,,,,
+OpenSSL 3.0.17,OpenSSL 3.0.17,Implementation,240,OpenSSL 3.0.17,,,,,
+ffdhe2048_supported,ffdhe2048,Primitive,24,ffdhe2048,PRIMITIVE,0.75,112.0,,
+aes-128,aes-128,Primitive,80,aes-128,PRIMITIVE,0.5,128.0,,
+sha-256,SHA-256,Primitive,220,SHA-256,HASH,,,0.5,0.0
+ecdsa_secp521r1,ecdsa_secp521r1,Primitive,30,ecdsa_secp521r1,PRIMITIVE,0.25,256.0,,
+sha-512,SHA-512,Primitive,90,SHA-512,HASH,,,0.0,0.0
+rsa-2048,RSA-2048,Primitive,90,RSA-2048,PRIMITIVE,0.75,112.0,,
+ed25519,ed25519,Primitive,30,ed25519,PRIMITIVE,0.75,128.0,,
+ecdsa_secp256r1,ecdsa_secp256r1,Primitive,30,ecdsa_secp256r1,PRIMITIVE,0.75,128.0,,
+ecdsa_secp384r1,ecdsa_secp384r1,Primitive,30,ecdsa_secp384r1,PRIMITIVE,0.5,192.0,,
+sha-384,SHA-384,Primitive,140,SHA-384,HASH,,,0.25,0.0
+ed448,ed448,Primitive,30,ed448,PRIMITIVE,0.5,224.0,,
+shake256,SHAKE256,Primitive,30,SHAKE256,HASH,,,0.0,0.0
+chacha20,ChaCha20,Primitive,80,ChaCha20,PRIMITIVE,0.0,256.0,,
+aes-256,aes-256,Primitive,80,aes-256,PRIMITIVE,0.0,256.0,,
+ecdh_x25519,ecdh_x25519,Primitive,24,ecdh_x25519,PRIMITIVE,0.75,128.0,,
+ffdhe8192_supported,ffdhe8192,Primitive,24,ffdhe8192,PRIMITIVE,0.25,256.0,,
+ecdh_secp256r1,ecdh_secp256r1,Primitive,24,ecdh_secp256r1,PRIMITIVE,0.75,128.0,,
+ffdhe3072_supported,ffdhe3072,Primitive,24,ffdhe3072,PRIMITIVE,0.75,128.0,,
+ffdhe4096_supported,ffdhe4096,Primitive,24,ffdhe4096,PRIMITIVE,0.5,150.0,,
+ecdh_secp521r1,ecdh_secp521r1,Primitive,24,ecdh_secp521r1,PRIMITIVE,0.25,256.0,,
+ecdh_secp384r1,ecdh_secp384r1,Primitive,24,ecdh_secp384r1,PRIMITIVE,0.5,192.0,,
+ecdh_x448,ecdh_x448,Primitive,24,ecdh_x448,PRIMITIVE,0.5,224.0,,
+ffdhe6144_supported,ffdhe6144,Primitive,24,ffdhe6144,PRIMITIVE,0.5,192.0,,

@@ -1,0 +1,6 @@
+# SPDX-License-Identifier: CC0-1.0
+id: SMS4
+name: SMS4 Block Cipher
+cryptoClass: Symmetric-Key-Algorithm/Block-Cipher
+oid: 1.2.156.10197.1.104
+commonkeySize: '128'

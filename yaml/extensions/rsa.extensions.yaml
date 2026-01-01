@@ -1,0 +1,31 @@
+# SPDX-License-Identifier: CC0-1.0
+extends: rsa
+mechanism: "Integer Factorization (IFC)"
+quantumResistance: "Low"
+
+# Following the SM2/SM9 sub-function pattern
+sub_functions:
+  - id: rsa-encryption
+    name: RSA Encryption (RSAES-OAEP / PKCS#1 v1.5)
+    role: "Public-Key-Cipher"
+    oid: 1.2.840.113549.1.1.7
+    note: "Used for encrypting small data or wrapping symmetric keys."
+
+  - id: rsa-signature
+    name: RSA Signature (RSASSA-PSS / PKCS#1 v1.5)
+    role: "Digital-Signature"
+    oid: 1.2.840.113549.1.1.10
+    note: "Used for digital signatures in certificates (X.509)."
+
+variants:
+  - id: rsa-2048
+    name: "RSA-2048"
+    securityLevel: 112
+    q_p: 0.75
+    note: "Classical security is below 128-bit floor. High risk for long-term data."
+  - id: rsa-3072
+    securityLevel: 128
+    note: "Current NIST minimum for 128-bit security compliance."
+  - id: rsa-4096
+    securityLevel: 150
+    note: "Strongest commonly supported RSA size."

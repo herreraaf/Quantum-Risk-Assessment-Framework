@@ -1,0 +1,5 @@
+# SPDX-License-Identifier: CC0-1.0
+id: tls13-groups
+name: TLS13 Supported Groups (Key Exhange)
+cryptoClass: Symmetric-Key-Algorithm/Block-Cipher
+standard: "RFC 8446 (TLS 1.3)"

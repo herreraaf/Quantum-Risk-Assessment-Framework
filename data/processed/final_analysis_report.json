@@ -1,0 +1,644 @@
+[
+    {
+        "Origin": "Local_Research_Node",
+        "Domain": "Data In Transit",
+        "Protocol": "TLCP",
+        "Implementation": "GmSSL 3.1.2 Dev",
+        "ClientHello": {
+            "cipher_suites": [
+                {
+                    "hex": "0xe013",
+                    "name": "ECC_SM4_CBC_SM3"
+                }
+            ],
+            "supported_groups": [],
+            "signature_algorithms": []
+        },
+        "ServerHello": {
+            "cipher_suite": "ECC_SM4_CBC_SM3",
+            "NamedGroup": "SM2"
+        },
+        "Certificates": {
+            "Signing": {
+                "Serial Number": "0x74ada2ab5206c41d312b459d",
+                "Signature Algorithm": "SM2-with-SM3",
+                "Issuer": "rdnSequence (0)",
+                "Validity": {
+                    "Not Before": "Parsed",
+                    "Not After": "Parsed"
+                },
+                "Subject": "rdnSequence (0)",
+                "Public Key Algorithm": "SM2"
+            },
+            "Encryption": {
+                "Serial Number": "0x00f35f1f5354ba472d3cd57e90",
+                "Signature Algorithm": "SM2-with-SM3",
+                "Issuer": "rdnSequence (0)",
+                "Validity": {
+                    "Not Before": "Parsed",
+                    "Not After": "Parsed"
+                },
+                "Subject": "rdnSequence (0)",
+                "Public Key Algorithm": "SM2"
+            }
+        }
+    },
+    {
+        "Origin": "Local_Research_Node",
+        "Domain": "Data In Transit",
+        "Protocol": "TLS 1.3",
+        "Implementation": "OpenSSL 3.0.17",
+        "ClientHello": {
+            "cipher_suites": [
+                {
+                    "hex": "0x1301",
+                    "name": "TLS_AES_128_GCM_SHA256"
+                },
+                {
+                    "hex": "0x1302",
+                    "name": "TLS_AES_256_GCM_SHA384"
+                },
+                {
+                    "hex": "0x1303",
+                    "name": "TLS_CHACHA20_POLY1305_SHA256"
+                },
+                {
+                    "hex": "0xc02b",
+                    "name": "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256"
+                },
+                {
+                    "hex": "0xc02f",
+                    "name": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256"
+                },
+                {
+                    "hex": "0x009e",
+                    "name": "0x009e"
+                },
+                {
+                    "hex": "0xc02c",
+                    "name": "0xc02c"
+                },
+                {
+                    "hex": "0xc030",
+                    "name": "0xc030"
+                },
+                {
+                    "hex": "0x009f",
+                    "name": "0x009f"
+                },
+                {
+                    "hex": "0xcca9",
+                    "name": "0xcca9"
+                },
+                {
+                    "hex": "0xcca8",
+                    "name": "0xcca8"
+                },
+                {
+                    "hex": "0xcc14",
+                    "name": "0xcc14"
+                },
+                {
+                    "hex": "0xcc13",
+                    "name": "0xcc13"
+                },
+                {
+                    "hex": "0xc009",
+                    "name": "0xc009"
+                },
+                {
+                    "hex": "0xc023",
+                    "name": "0xc023"
+                },
+                {
+                    "hex": "0xc013",
+                    "name": "0xc013"
+                },
+                {
+                    "hex": "0xc027",
+                    "name": "0xc027"
+                },
+                {
+                    "hex": "0x0033",
+                    "name": "0x0033"
+                },
+                {
+                    "hex": "0x0067",
+                    "name": "0x0067"
+                },
+                {
+                    "hex": "0xc00a",
+                    "name": "0xc00a"
+                },
+                {
+                    "hex": "0xc024",
+                    "name": "0xc024"
+                },
+                {
+                    "hex": "0xc014",
+                    "name": "0xc014"
+                },
+                {
+                    "hex": "0xc028",
+                    "name": "0xc028"
+                },
+                {
+                    "hex": "0x0039",
+                    "name": "0x0039"
+                },
+                {
+                    "hex": "0x006b",
+                    "name": "0x006b"
+                },
+                {
+                    "hex": "0x009c",
+                    "name": "0x009c"
+                },
+                {
+                    "hex": "0x009d",
+                    "name": "0x009d"
+                },
+                {
+                    "hex": "0x002f",
+                    "name": "0x002f"
+                },
+                {
+                    "hex": "0x003c",
+                    "name": "0x003c"
+                },
+                {
+                    "hex": "0x0035",
+                    "name": "0x0035"
+                },
+                {
+                    "hex": "0x003d",
+                    "name": "0x003d"
+                },
+                {
+                    "hex": "0x000a",
+                    "name": "0x000a"
+                }
+            ],
+            "supported_groups": [
+                "x25519",
+                "secp256r1",
+                "secp384r1"
+            ],
+            "signature_algorithms": [
+                {
+                    "name": "ECDSA-P256 (ecdsa_secp256r1_sha256)",
+                    "hex": "0x0403"
+                },
+                {
+                    "name": "0x0804",
+                    "hex": "0x0804"
+                },
+                {
+                    "name": "RSA-2048 (rsa_pkcs1_sha256)",
+                    "hex": "0x0401"
+                },
+                {
+                    "name": "ECDSA-P384 (ecdsa_secp384r1_sha384)",
+                    "hex": "0x0503"
+                },
+                {
+                    "name": "0x0805",
+                    "hex": "0x0805"
+                },
+                {
+                    "name": "0x0501",
+                    "hex": "0x0501"
+                },
+                {
+                    "name": "0x0806",
+                    "hex": "0x0806"
+                },
+                {
+                    "name": "0x0601",
+                    "hex": "0x0601"
+                },
+                {
+                    "name": "0x0201",
+                    "hex": "0x0201"
+                }
+            ]
+        },
+        "ServerHello": {
+            "cipher_suite": "TLS_AES_128_GCM_SHA256",
+            "NamedGroup": "29"
+        },
+        "Certificate": null
+    },
+    {
+        "Origin": "Local_Research_Node",
+        "Domain": "Data In Transit",
+        "Protocol": "TLS 1.3",
+        "Implementation": "OpenSSL 3.0.17",
+        "ClientHello": {
+            "cipher_suites": [
+                {
+                    "hex": "0x1301",
+                    "name": "TLS_AES_128_GCM_SHA256"
+                },
+                {
+                    "hex": "0x1302",
+                    "name": "TLS_AES_256_GCM_SHA384"
+                },
+                {
+                    "hex": "0x1303",
+                    "name": "TLS_CHACHA20_POLY1305_SHA256"
+                },
+                {
+                    "hex": "0xc02b",
+                    "name": "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256"
+                },
+                {
+                    "hex": "0xc02f",
+                    "name": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256"
+                },
+                {
+                    "hex": "0xc02c",
+                    "name": "0xc02c"
+                },
+                {
+                    "hex": "0xc030",
+                    "name": "0xc030"
+                },
+                {
+                    "hex": "0xcca9",
+                    "name": "0xcca9"
+                },
+                {
+                    "hex": "0xcca8",
+                    "name": "0xcca8"
+                },
+                {
+                    "hex": "0xc009",
+                    "name": "0xc009"
+                },
+                {
+                    "hex": "0xc023",
+                    "name": "0xc023"
+                },
+                {
+                    "hex": "0xc013",
+                    "name": "0xc013"
+                },
+                {
+                    "hex": "0xc027",
+                    "name": "0xc027"
+                },
+                {
+                    "hex": "0xc00a",
+                    "name": "0xc00a"
+                },
+                {
+                    "hex": "0xc024",
+                    "name": "0xc024"
+                },
+                {
+                    "hex": "0xc014",
+                    "name": "0xc014"
+                },
+                {
+                    "hex": "0xc028",
+                    "name": "0xc028"
+                },
+                {
+                    "hex": "0x009c",
+                    "name": "0x009c"
+                },
+                {
+                    "hex": "0x009d",
+                    "name": "0x009d"
+                },
+                {
+                    "hex": "0x002f",
+                    "name": "0x002f"
+                },
+                {
+                    "hex": "0x003c",
+                    "name": "0x003c"
+                },
+                {
+                    "hex": "0x0035",
+                    "name": "0x0035"
+                },
+                {
+                    "hex": "0x003d",
+                    "name": "0x003d"
+                },
+                {
+                    "hex": "0x000a",
+                    "name": "0x000a"
+                }
+            ],
+            "supported_groups": [
+                "x25519",
+                "secp256r1",
+                "secp384r1"
+            ],
+            "signature_algorithms": [
+                {
+                    "name": "Ed25519",
+                    "hex": "0x0807"
+                },
+                {
+                    "name": "ECDSA-P256 (ecdsa_secp256r1_sha256)",
+                    "hex": "0x0403"
+                },
+                {
+                    "name": "0x0804",
+                    "hex": "0x0804"
+                },
+                {
+                    "name": "RSA-2048 (rsa_pkcs1_sha256)",
+                    "hex": "0x0401"
+                },
+                {
+                    "name": "ECDSA-P384 (ecdsa_secp384r1_sha384)",
+                    "hex": "0x0503"
+                },
+                {
+                    "name": "0x0805",
+                    "hex": "0x0805"
+                },
+                {
+                    "name": "0x0501",
+                    "hex": "0x0501"
+                },
+                {
+                    "name": "0x0806",
+                    "hex": "0x0806"
+                },
+                {
+                    "name": "0x0601",
+                    "hex": "0x0601"
+                },
+                {
+                    "name": "0x0201",
+                    "hex": "0x0201"
+                }
+            ]
+        },
+        "ServerHello": {
+            "cipher_suite": "TLS_AES_128_GCM_SHA256",
+            "NamedGroup": "29"
+        },
+        "Certificate": null
+    },
+    {
+        "Origin": "Local_Research_Node",
+        "Domain": "Data In Transit",
+        "Protocol": "TLS 1.3",
+        "Implementation": "OpenSSL 3.0.17",
+        "ClientHello": {
+            "cipher_suites": [
+                {
+                    "hex": "{0x13, 0x02}",
+                    "name": "TLS_AES_256_GCM_SHA384"
+                },
+                {
+                    "hex": "{0x13, 0x03}",
+                    "name": "TLS_CHACHA20_POLY1305_SHA256"
+                },
+                {
+                    "hex": "{0x13, 0x01}",
+                    "name": "TLS_AES_128_GCM_SHA256"
+                },
+                {
+                    "hex": "{0xC0, 0x2C}",
+                    "name": "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384"
+                },
+                {
+                    "hex": "{0xC0, 0x30}",
+                    "name": "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384"
+                },
+                {
+                    "hex": "{0x00, 0x9F}",
+                    "name": "TLS_DHE_RSA_WITH_AES_256_GCM_SHA384"
+                },
+                {
+                    "hex": "{0xCC, 0xA9}",
+                    "name": "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256"
+                },
+                {
+                    "hex": "{0xCC, 0xA8}",
+                    "name": "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256"
+                },
+                {
+                    "hex": "{0xCC, 0xAA}",
+                    "name": "TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256"
+                },
+                {
+                    "hex": "{0xC0, 0x2B}",
+                    "name": "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256"
+                },
+                {
+                    "hex": "{0xC0, 0x2F}",
+                    "name": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256"
+                },
+                {
+                    "hex": "{0x00, 0x9E}",
+                    "name": "TLS_DHE_RSA_WITH_AES_128_GCM_SHA256"
+                },
+                {
+                    "hex": "{0xC0, 0x24}",
+                    "name": "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384"
+                },
+                {
+                    "hex": "{0xC0, 0x28}",
+                    "name": "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384"
+                },
+                {
+                    "hex": "{0x00, 0x6B}",
+                    "name": "TLS_DHE_RSA_WITH_AES_256_CBC_SHA256"
+                },
+                {
+                    "hex": "{0xC0, 0x23}",
+                    "name": "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256"
+                },
+                {
+                    "hex": "{0xC0, 0x27}",
+                    "name": "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256"
+                },
+                {
+                    "hex": "{0x00, 0x67}",
+                    "name": "TLS_DHE_RSA_WITH_AES_128_CBC_SHA256"
+                },
+                {
+                    "hex": "{0xC0, 0x0A}",
+                    "name": "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA"
+                },
+                {
+                    "hex": "{0xC0, 0x14}",
+                    "name": "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA"
+                },
+                {
+                    "hex": "{0x00, 0x39}",
+                    "name": "TLS_DHE_RSA_WITH_AES_256_CBC_SHA"
+                },
+                {
+                    "hex": "{0xC0, 0x09}",
+                    "name": "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA"
+                },
+                {
+                    "hex": "{0xC0, 0x13}",
+                    "name": "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA"
+                },
+                {
+                    "hex": "{0x00, 0x33}",
+                    "name": "TLS_DHE_RSA_WITH_AES_128_CBC_SHA"
+                },
+                {
+                    "hex": "{0x00, 0x9D}",
+                    "name": "TLS_RSA_WITH_AES_256_GCM_SHA384"
+                },
+                {
+                    "hex": "{0x00, 0x9C}",
+                    "name": "TLS_RSA_WITH_AES_128_GCM_SHA256"
+                },
+                {
+                    "hex": "{0x00, 0x3D}",
+                    "name": "TLS_RSA_WITH_AES_256_CBC_SHA256"
+                },
+                {
+                    "hex": "{0x00, 0x3C}",
+                    "name": "TLS_RSA_WITH_AES_128_CBC_SHA256"
+                },
+                {
+                    "hex": "{0x00, 0x35}",
+                    "name": "TLS_RSA_WITH_AES_256_CBC_SHA"
+                },
+                {
+                    "hex": "{0x00, 0x2F}",
+                    "name": "TLS_RSA_WITH_AES_128_CBC_SHA"
+                },
+                {
+                    "hex": "{0x00, 0xFF}",
+                    "name": "TLS_EMPTY_RENEGOTIATION_INFO_SCSV"
+                }
+            ],
+            "supported_groups": [
+                "ecdh_x25519",
+                "secp256r1",
+                "ecdh_x448",
+                "secp521r1",
+                "secp384r1",
+                "ffdhe2048",
+                "ffdhe3072",
+                "ffdhe4096",
+                "ffdhe6144",
+                "ffdhe8192",
+                "ecdh_x25519"
+            ],
+            "signature_algorithms": [
+                {
+                    "name": "No Compression",
+                    "hex": "0x00"
+                },
+                {
+                    "name": "ecdsa_secp256r1_sha256",
+                    "hex": "0x0403"
+                },
+                {
+                    "name": "ecdsa_secp384r1_sha384",
+                    "hex": "0x0503"
+                },
+                {
+                    "name": "ecdsa_secp521r1_sha512",
+                    "hex": "0x0603"
+                },
+                {
+                    "name": "ed25519",
+                    "hex": "0x0807"
+                },
+                {
+                    "name": "ed448",
+                    "hex": "0x0808"
+                },
+                {
+                    "name": "rsa_pss_pss_sha256",
+                    "hex": "0x0809"
+                },
+                {
+                    "name": "rsa_pss_pss_sha384",
+                    "hex": "0x080a"
+                },
+                {
+                    "name": "rsa_pss_pss_sha512",
+                    "hex": "0x080b"
+                },
+                {
+                    "name": "rsa_pss_rsae_sha256",
+                    "hex": "0x0804"
+                },
+                {
+                    "name": "rsa_pss_rsae_sha384",
+                    "hex": "0x0805"
+                },
+                {
+                    "name": "rsa_pss_rsae_sha512",
+                    "hex": "0x0806"
+                },
+                {
+                    "name": "rsa_pkcs1_sha256",
+                    "hex": "0x0401"
+                },
+                {
+                    "name": "rsa_pkcs1_sha384",
+                    "hex": "0x0501"
+                },
+                {
+                    "name": "rsa_pkcs1_sha512",
+                    "hex": "0x0601"
+                },
+                {
+                    "name": "ecdsa_sha224",
+                    "hex": "0x0303"
+                },
+                {
+                    "name": "rsa_pkcs1_sha224",
+                    "hex": "0x0301"
+                },
+                {
+                    "name": "dsa_sha224",
+                    "hex": "0x0302"
+                },
+                {
+                    "name": "dsa_sha256",
+                    "hex": "0x0402"
+                },
+                {
+                    "name": "dsa_sha384",
+                    "hex": "0x0502"
+                },
+                {
+                    "name": "dsa_sha512",
+                    "hex": "0x0602"
+                },
+                {
+                    "name": "Version = TLS 1.2",
+                    "hex": "0x303"
+                }
+            ]
+        },
+        "ServerHello": {
+            "cipher_suite": "TLS_AES_256_GCM_SHA384",
+            "NamedGroup": "ecdh_x25519"
+        },
+        "Certificate": {
+            "Serial Number": "",
+            "Signature Algorithm": "ecdsa-with-SHA256",
+            "Issuer": "CN = localhost",
+            "Validity": {
+                "Not Before": "Dec 17 10:37:42 2025 GMT",
+                "Not After": "Dec 17 10:37:42 2026 GMT"
+            },
+            "Subject": "CN = localhost",
+            "Public Key Algorithm": "id-ecPublicKey",
+            "ASN1 OID": "prime256v1",
+            "Signature Value": "304502210096c410533a96ec610ab80ce7facc32279e92433d0dd2c3601446390f71599f33022027b5d94327831d9d6c4d353e4077a6b3d23ad3e536a6dccb3cb6d47ee0b47dda"
+        }
+    }
+]

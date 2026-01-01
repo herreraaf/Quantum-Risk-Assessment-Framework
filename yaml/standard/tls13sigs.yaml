@@ -1,0 +1,5 @@
+# SPDX-License-Identifier: CC0-1.0
+id: tls13-sigs
+name: TLS13 Signature Algorithms
+cryptoClass: Asymmetric-Key-Algorithm/Digital-Signature
+standard: "RFC 8446 (TLS 1.3)"

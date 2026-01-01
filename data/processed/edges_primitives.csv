@@ -1,0 +1,1929 @@
+Source,Target,Type,Label
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLCP,Directed,carries
+TLCP,GmSSL 3.1.2 Dev,Directed,implemented_by
+GmSSL 3.1.2 Dev,SM2,Directed,utilizes
+GmSSL 3.1.2 Dev,SMS4,Directed,utilizes
+GmSSL 3.1.2 Dev,SM3,Directed,utilizes
+GmSSL 3.1.2 Dev,SM2,Directed,utilizes
+GmSSL 3.1.2 Dev,SM3,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe2048_supported,Directed,utilizes
+OpenSSL 3.0.17,aes-128,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,ecdsa_secp521r1,Directed,utilizes
+OpenSSL 3.0.17,sha-512,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe2048_supported,Directed,utilizes
+OpenSSL 3.0.17,aes-128,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,rsa-2048,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe2048_supported,Directed,utilizes
+OpenSSL 3.0.17,aes-128,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,ed25519,Directed,utilizes
+OpenSSL 3.0.17,sha-512,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe2048_supported,Directed,utilizes
+OpenSSL 3.0.17,aes-128,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,ecdsa_secp256r1,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe2048_supported,Directed,utilizes
+OpenSSL 3.0.17,aes-128,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,ecdsa_secp384r1,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe2048_supported,Directed,utilizes
+OpenSSL 3.0.17,aes-128,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,rsa-2048,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe2048_supported,Directed,utilizes
+OpenSSL 3.0.17,aes-128,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,ed448,Directed,utilizes
+OpenSSL 3.0.17,shake256,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe2048_supported,Directed,utilizes
+OpenSSL 3.0.17,aes-128,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,rsa-2048,Directed,utilizes
+OpenSSL 3.0.17,sha-512,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe2048_supported,Directed,utilizes
+OpenSSL 3.0.17,chacha20,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,ecdsa_secp521r1,Directed,utilizes
+OpenSSL 3.0.17,sha-512,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe2048_supported,Directed,utilizes
+OpenSSL 3.0.17,chacha20,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,rsa-2048,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe2048_supported,Directed,utilizes
+OpenSSL 3.0.17,chacha20,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,ed25519,Directed,utilizes
+OpenSSL 3.0.17,sha-512,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe2048_supported,Directed,utilizes
+OpenSSL 3.0.17,chacha20,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,ecdsa_secp256r1,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe2048_supported,Directed,utilizes
+OpenSSL 3.0.17,chacha20,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,ecdsa_secp384r1,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe2048_supported,Directed,utilizes
+OpenSSL 3.0.17,chacha20,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,rsa-2048,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe2048_supported,Directed,utilizes
+OpenSSL 3.0.17,chacha20,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,ed448,Directed,utilizes
+OpenSSL 3.0.17,shake256,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe2048_supported,Directed,utilizes
+OpenSSL 3.0.17,chacha20,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,rsa-2048,Directed,utilizes
+OpenSSL 3.0.17,sha-512,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe2048_supported,Directed,utilizes
+OpenSSL 3.0.17,aes-256,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+OpenSSL 3.0.17,ecdsa_secp521r1,Directed,utilizes
+OpenSSL 3.0.17,sha-512,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe2048_supported,Directed,utilizes
+OpenSSL 3.0.17,aes-256,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+OpenSSL 3.0.17,rsa-2048,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe2048_supported,Directed,utilizes
+OpenSSL 3.0.17,aes-256,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+OpenSSL 3.0.17,ed25519,Directed,utilizes
+OpenSSL 3.0.17,sha-512,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe2048_supported,Directed,utilizes
+OpenSSL 3.0.17,aes-256,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+OpenSSL 3.0.17,ecdsa_secp256r1,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe2048_supported,Directed,utilizes
+OpenSSL 3.0.17,aes-256,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+OpenSSL 3.0.17,ecdsa_secp384r1,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe2048_supported,Directed,utilizes
+OpenSSL 3.0.17,aes-256,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+OpenSSL 3.0.17,rsa-2048,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe2048_supported,Directed,utilizes
+OpenSSL 3.0.17,aes-256,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+OpenSSL 3.0.17,ed448,Directed,utilizes
+OpenSSL 3.0.17,shake256,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe2048_supported,Directed,utilizes
+OpenSSL 3.0.17,aes-256,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+OpenSSL 3.0.17,rsa-2048,Directed,utilizes
+OpenSSL 3.0.17,sha-512,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_x25519,Directed,utilizes
+OpenSSL 3.0.17,aes-128,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,ecdsa_secp521r1,Directed,utilizes
+OpenSSL 3.0.17,sha-512,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_x25519,Directed,utilizes
+OpenSSL 3.0.17,aes-128,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,rsa-2048,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_x25519,Directed,utilizes
+OpenSSL 3.0.17,aes-128,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,ed25519,Directed,utilizes
+OpenSSL 3.0.17,sha-512,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_x25519,Directed,utilizes
+OpenSSL 3.0.17,aes-128,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,ecdsa_secp256r1,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_x25519,Directed,utilizes
+OpenSSL 3.0.17,aes-128,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,ecdsa_secp384r1,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_x25519,Directed,utilizes
+OpenSSL 3.0.17,aes-128,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,rsa-2048,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_x25519,Directed,utilizes
+OpenSSL 3.0.17,aes-128,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,ed448,Directed,utilizes
+OpenSSL 3.0.17,shake256,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_x25519,Directed,utilizes
+OpenSSL 3.0.17,aes-128,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,rsa-2048,Directed,utilizes
+OpenSSL 3.0.17,sha-512,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_x25519,Directed,utilizes
+OpenSSL 3.0.17,chacha20,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,ecdsa_secp521r1,Directed,utilizes
+OpenSSL 3.0.17,sha-512,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_x25519,Directed,utilizes
+OpenSSL 3.0.17,chacha20,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,rsa-2048,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_x25519,Directed,utilizes
+OpenSSL 3.0.17,chacha20,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,ed25519,Directed,utilizes
+OpenSSL 3.0.17,sha-512,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_x25519,Directed,utilizes
+OpenSSL 3.0.17,chacha20,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,ecdsa_secp256r1,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_x25519,Directed,utilizes
+OpenSSL 3.0.17,chacha20,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,ecdsa_secp384r1,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_x25519,Directed,utilizes
+OpenSSL 3.0.17,chacha20,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,rsa-2048,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_x25519,Directed,utilizes
+OpenSSL 3.0.17,chacha20,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,ed448,Directed,utilizes
+OpenSSL 3.0.17,shake256,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_x25519,Directed,utilizes
+OpenSSL 3.0.17,chacha20,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,rsa-2048,Directed,utilizes
+OpenSSL 3.0.17,sha-512,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_x25519,Directed,utilizes
+OpenSSL 3.0.17,aes-256,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+OpenSSL 3.0.17,ecdsa_secp521r1,Directed,utilizes
+OpenSSL 3.0.17,sha-512,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_x25519,Directed,utilizes
+OpenSSL 3.0.17,aes-256,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+OpenSSL 3.0.17,rsa-2048,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_x25519,Directed,utilizes
+OpenSSL 3.0.17,aes-256,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+OpenSSL 3.0.17,ed25519,Directed,utilizes
+OpenSSL 3.0.17,sha-512,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_x25519,Directed,utilizes
+OpenSSL 3.0.17,aes-256,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+OpenSSL 3.0.17,ecdsa_secp256r1,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_x25519,Directed,utilizes
+OpenSSL 3.0.17,aes-256,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+OpenSSL 3.0.17,ecdsa_secp384r1,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_x25519,Directed,utilizes
+OpenSSL 3.0.17,aes-256,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+OpenSSL 3.0.17,rsa-2048,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_x25519,Directed,utilizes
+OpenSSL 3.0.17,aes-256,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+OpenSSL 3.0.17,ed448,Directed,utilizes
+OpenSSL 3.0.17,shake256,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_x25519,Directed,utilizes
+OpenSSL 3.0.17,aes-256,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+OpenSSL 3.0.17,rsa-2048,Directed,utilizes
+OpenSSL 3.0.17,sha-512,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe8192_supported,Directed,utilizes
+OpenSSL 3.0.17,aes-128,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,ecdsa_secp521r1,Directed,utilizes
+OpenSSL 3.0.17,sha-512,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe8192_supported,Directed,utilizes
+OpenSSL 3.0.17,aes-128,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,rsa-2048,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe8192_supported,Directed,utilizes
+OpenSSL 3.0.17,aes-128,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,ed25519,Directed,utilizes
+OpenSSL 3.0.17,sha-512,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe8192_supported,Directed,utilizes
+OpenSSL 3.0.17,aes-128,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,ecdsa_secp256r1,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe8192_supported,Directed,utilizes
+OpenSSL 3.0.17,aes-128,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,ecdsa_secp384r1,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe8192_supported,Directed,utilizes
+OpenSSL 3.0.17,aes-128,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,rsa-2048,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe8192_supported,Directed,utilizes
+OpenSSL 3.0.17,aes-128,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,ed448,Directed,utilizes
+OpenSSL 3.0.17,shake256,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe8192_supported,Directed,utilizes
+OpenSSL 3.0.17,aes-128,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,rsa-2048,Directed,utilizes
+OpenSSL 3.0.17,sha-512,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe8192_supported,Directed,utilizes
+OpenSSL 3.0.17,chacha20,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,ecdsa_secp521r1,Directed,utilizes
+OpenSSL 3.0.17,sha-512,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe8192_supported,Directed,utilizes
+OpenSSL 3.0.17,chacha20,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,rsa-2048,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe8192_supported,Directed,utilizes
+OpenSSL 3.0.17,chacha20,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,ed25519,Directed,utilizes
+OpenSSL 3.0.17,sha-512,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe8192_supported,Directed,utilizes
+OpenSSL 3.0.17,chacha20,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,ecdsa_secp256r1,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe8192_supported,Directed,utilizes
+OpenSSL 3.0.17,chacha20,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,ecdsa_secp384r1,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe8192_supported,Directed,utilizes
+OpenSSL 3.0.17,chacha20,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,rsa-2048,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe8192_supported,Directed,utilizes
+OpenSSL 3.0.17,chacha20,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,ed448,Directed,utilizes
+OpenSSL 3.0.17,shake256,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe8192_supported,Directed,utilizes
+OpenSSL 3.0.17,chacha20,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,rsa-2048,Directed,utilizes
+OpenSSL 3.0.17,sha-512,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe8192_supported,Directed,utilizes
+OpenSSL 3.0.17,aes-256,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+OpenSSL 3.0.17,ecdsa_secp521r1,Directed,utilizes
+OpenSSL 3.0.17,sha-512,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe8192_supported,Directed,utilizes
+OpenSSL 3.0.17,aes-256,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+OpenSSL 3.0.17,rsa-2048,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe8192_supported,Directed,utilizes
+OpenSSL 3.0.17,aes-256,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+OpenSSL 3.0.17,ed25519,Directed,utilizes
+OpenSSL 3.0.17,sha-512,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe8192_supported,Directed,utilizes
+OpenSSL 3.0.17,aes-256,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+OpenSSL 3.0.17,ecdsa_secp256r1,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe8192_supported,Directed,utilizes
+OpenSSL 3.0.17,aes-256,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+OpenSSL 3.0.17,ecdsa_secp384r1,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe8192_supported,Directed,utilizes
+OpenSSL 3.0.17,aes-256,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+OpenSSL 3.0.17,rsa-2048,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe8192_supported,Directed,utilizes
+OpenSSL 3.0.17,aes-256,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+OpenSSL 3.0.17,ed448,Directed,utilizes
+OpenSSL 3.0.17,shake256,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe8192_supported,Directed,utilizes
+OpenSSL 3.0.17,aes-256,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+OpenSSL 3.0.17,rsa-2048,Directed,utilizes
+OpenSSL 3.0.17,sha-512,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_secp256r1,Directed,utilizes
+OpenSSL 3.0.17,aes-128,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,ecdsa_secp521r1,Directed,utilizes
+OpenSSL 3.0.17,sha-512,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_secp256r1,Directed,utilizes
+OpenSSL 3.0.17,aes-128,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,rsa-2048,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_secp256r1,Directed,utilizes
+OpenSSL 3.0.17,aes-128,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,ed25519,Directed,utilizes
+OpenSSL 3.0.17,sha-512,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_secp256r1,Directed,utilizes
+OpenSSL 3.0.17,aes-128,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,ecdsa_secp256r1,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_secp256r1,Directed,utilizes
+OpenSSL 3.0.17,aes-128,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,ecdsa_secp384r1,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_secp256r1,Directed,utilizes
+OpenSSL 3.0.17,aes-128,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,rsa-2048,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_secp256r1,Directed,utilizes
+OpenSSL 3.0.17,aes-128,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,ed448,Directed,utilizes
+OpenSSL 3.0.17,shake256,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_secp256r1,Directed,utilizes
+OpenSSL 3.0.17,aes-128,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,rsa-2048,Directed,utilizes
+OpenSSL 3.0.17,sha-512,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_secp256r1,Directed,utilizes
+OpenSSL 3.0.17,chacha20,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,ecdsa_secp521r1,Directed,utilizes
+OpenSSL 3.0.17,sha-512,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_secp256r1,Directed,utilizes
+OpenSSL 3.0.17,chacha20,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,rsa-2048,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_secp256r1,Directed,utilizes
+OpenSSL 3.0.17,chacha20,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,ed25519,Directed,utilizes
+OpenSSL 3.0.17,sha-512,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_secp256r1,Directed,utilizes
+OpenSSL 3.0.17,chacha20,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,ecdsa_secp256r1,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_secp256r1,Directed,utilizes
+OpenSSL 3.0.17,chacha20,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,ecdsa_secp384r1,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_secp256r1,Directed,utilizes
+OpenSSL 3.0.17,chacha20,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,rsa-2048,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_secp256r1,Directed,utilizes
+OpenSSL 3.0.17,chacha20,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,ed448,Directed,utilizes
+OpenSSL 3.0.17,shake256,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_secp256r1,Directed,utilizes
+OpenSSL 3.0.17,chacha20,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,rsa-2048,Directed,utilizes
+OpenSSL 3.0.17,sha-512,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_secp256r1,Directed,utilizes
+OpenSSL 3.0.17,aes-256,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+OpenSSL 3.0.17,ecdsa_secp521r1,Directed,utilizes
+OpenSSL 3.0.17,sha-512,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_secp256r1,Directed,utilizes
+OpenSSL 3.0.17,aes-256,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+OpenSSL 3.0.17,rsa-2048,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_secp256r1,Directed,utilizes
+OpenSSL 3.0.17,aes-256,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+OpenSSL 3.0.17,ed25519,Directed,utilizes
+OpenSSL 3.0.17,sha-512,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_secp256r1,Directed,utilizes
+OpenSSL 3.0.17,aes-256,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+OpenSSL 3.0.17,ecdsa_secp256r1,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_secp256r1,Directed,utilizes
+OpenSSL 3.0.17,aes-256,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+OpenSSL 3.0.17,ecdsa_secp384r1,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_secp256r1,Directed,utilizes
+OpenSSL 3.0.17,aes-256,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+OpenSSL 3.0.17,rsa-2048,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_secp256r1,Directed,utilizes
+OpenSSL 3.0.17,aes-256,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+OpenSSL 3.0.17,ed448,Directed,utilizes
+OpenSSL 3.0.17,shake256,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_secp256r1,Directed,utilizes
+OpenSSL 3.0.17,aes-256,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+OpenSSL 3.0.17,rsa-2048,Directed,utilizes
+OpenSSL 3.0.17,sha-512,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe3072_supported,Directed,utilizes
+OpenSSL 3.0.17,aes-128,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,ecdsa_secp521r1,Directed,utilizes
+OpenSSL 3.0.17,sha-512,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe3072_supported,Directed,utilizes
+OpenSSL 3.0.17,aes-128,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,rsa-2048,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe3072_supported,Directed,utilizes
+OpenSSL 3.0.17,aes-128,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,ed25519,Directed,utilizes
+OpenSSL 3.0.17,sha-512,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe3072_supported,Directed,utilizes
+OpenSSL 3.0.17,aes-128,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,ecdsa_secp256r1,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe3072_supported,Directed,utilizes
+OpenSSL 3.0.17,aes-128,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,ecdsa_secp384r1,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe3072_supported,Directed,utilizes
+OpenSSL 3.0.17,aes-128,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,rsa-2048,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe3072_supported,Directed,utilizes
+OpenSSL 3.0.17,aes-128,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,ed448,Directed,utilizes
+OpenSSL 3.0.17,shake256,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe3072_supported,Directed,utilizes
+OpenSSL 3.0.17,aes-128,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,rsa-2048,Directed,utilizes
+OpenSSL 3.0.17,sha-512,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe3072_supported,Directed,utilizes
+OpenSSL 3.0.17,chacha20,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,ecdsa_secp521r1,Directed,utilizes
+OpenSSL 3.0.17,sha-512,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe3072_supported,Directed,utilizes
+OpenSSL 3.0.17,chacha20,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,rsa-2048,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe3072_supported,Directed,utilizes
+OpenSSL 3.0.17,chacha20,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,ed25519,Directed,utilizes
+OpenSSL 3.0.17,sha-512,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe3072_supported,Directed,utilizes
+OpenSSL 3.0.17,chacha20,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,ecdsa_secp256r1,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe3072_supported,Directed,utilizes
+OpenSSL 3.0.17,chacha20,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,ecdsa_secp384r1,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe3072_supported,Directed,utilizes
+OpenSSL 3.0.17,chacha20,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,rsa-2048,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe3072_supported,Directed,utilizes
+OpenSSL 3.0.17,chacha20,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,ed448,Directed,utilizes
+OpenSSL 3.0.17,shake256,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe3072_supported,Directed,utilizes
+OpenSSL 3.0.17,chacha20,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,rsa-2048,Directed,utilizes
+OpenSSL 3.0.17,sha-512,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe3072_supported,Directed,utilizes
+OpenSSL 3.0.17,aes-256,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+OpenSSL 3.0.17,ecdsa_secp521r1,Directed,utilizes
+OpenSSL 3.0.17,sha-512,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe3072_supported,Directed,utilizes
+OpenSSL 3.0.17,aes-256,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+OpenSSL 3.0.17,rsa-2048,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe3072_supported,Directed,utilizes
+OpenSSL 3.0.17,aes-256,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+OpenSSL 3.0.17,ed25519,Directed,utilizes
+OpenSSL 3.0.17,sha-512,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe3072_supported,Directed,utilizes
+OpenSSL 3.0.17,aes-256,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+OpenSSL 3.0.17,ecdsa_secp256r1,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe3072_supported,Directed,utilizes
+OpenSSL 3.0.17,aes-256,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+OpenSSL 3.0.17,ecdsa_secp384r1,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe3072_supported,Directed,utilizes
+OpenSSL 3.0.17,aes-256,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+OpenSSL 3.0.17,rsa-2048,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe3072_supported,Directed,utilizes
+OpenSSL 3.0.17,aes-256,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+OpenSSL 3.0.17,ed448,Directed,utilizes
+OpenSSL 3.0.17,shake256,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe3072_supported,Directed,utilizes
+OpenSSL 3.0.17,aes-256,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+OpenSSL 3.0.17,rsa-2048,Directed,utilizes
+OpenSSL 3.0.17,sha-512,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe4096_supported,Directed,utilizes
+OpenSSL 3.0.17,aes-128,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,ecdsa_secp521r1,Directed,utilizes
+OpenSSL 3.0.17,sha-512,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe4096_supported,Directed,utilizes
+OpenSSL 3.0.17,aes-128,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,rsa-2048,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe4096_supported,Directed,utilizes
+OpenSSL 3.0.17,aes-128,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,ed25519,Directed,utilizes
+OpenSSL 3.0.17,sha-512,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe4096_supported,Directed,utilizes
+OpenSSL 3.0.17,aes-128,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,ecdsa_secp256r1,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe4096_supported,Directed,utilizes
+OpenSSL 3.0.17,aes-128,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,ecdsa_secp384r1,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe4096_supported,Directed,utilizes
+OpenSSL 3.0.17,aes-128,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,rsa-2048,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe4096_supported,Directed,utilizes
+OpenSSL 3.0.17,aes-128,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,ed448,Directed,utilizes
+OpenSSL 3.0.17,shake256,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe4096_supported,Directed,utilizes
+OpenSSL 3.0.17,aes-128,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,rsa-2048,Directed,utilizes
+OpenSSL 3.0.17,sha-512,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe4096_supported,Directed,utilizes
+OpenSSL 3.0.17,chacha20,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,ecdsa_secp521r1,Directed,utilizes
+OpenSSL 3.0.17,sha-512,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe4096_supported,Directed,utilizes
+OpenSSL 3.0.17,chacha20,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,rsa-2048,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe4096_supported,Directed,utilizes
+OpenSSL 3.0.17,chacha20,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,ed25519,Directed,utilizes
+OpenSSL 3.0.17,sha-512,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe4096_supported,Directed,utilizes
+OpenSSL 3.0.17,chacha20,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,ecdsa_secp256r1,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe4096_supported,Directed,utilizes
+OpenSSL 3.0.17,chacha20,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,ecdsa_secp384r1,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe4096_supported,Directed,utilizes
+OpenSSL 3.0.17,chacha20,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,rsa-2048,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe4096_supported,Directed,utilizes
+OpenSSL 3.0.17,chacha20,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,ed448,Directed,utilizes
+OpenSSL 3.0.17,shake256,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe4096_supported,Directed,utilizes
+OpenSSL 3.0.17,chacha20,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,rsa-2048,Directed,utilizes
+OpenSSL 3.0.17,sha-512,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe4096_supported,Directed,utilizes
+OpenSSL 3.0.17,aes-256,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+OpenSSL 3.0.17,ecdsa_secp521r1,Directed,utilizes
+OpenSSL 3.0.17,sha-512,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe4096_supported,Directed,utilizes
+OpenSSL 3.0.17,aes-256,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+OpenSSL 3.0.17,rsa-2048,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe4096_supported,Directed,utilizes
+OpenSSL 3.0.17,aes-256,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+OpenSSL 3.0.17,ed25519,Directed,utilizes
+OpenSSL 3.0.17,sha-512,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe4096_supported,Directed,utilizes
+OpenSSL 3.0.17,aes-256,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+OpenSSL 3.0.17,ecdsa_secp256r1,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe4096_supported,Directed,utilizes
+OpenSSL 3.0.17,aes-256,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+OpenSSL 3.0.17,ecdsa_secp384r1,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe4096_supported,Directed,utilizes
+OpenSSL 3.0.17,aes-256,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+OpenSSL 3.0.17,rsa-2048,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe4096_supported,Directed,utilizes
+OpenSSL 3.0.17,aes-256,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+OpenSSL 3.0.17,ed448,Directed,utilizes
+OpenSSL 3.0.17,shake256,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe4096_supported,Directed,utilizes
+OpenSSL 3.0.17,aes-256,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+OpenSSL 3.0.17,rsa-2048,Directed,utilizes
+OpenSSL 3.0.17,sha-512,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_secp521r1,Directed,utilizes
+OpenSSL 3.0.17,aes-128,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,ecdsa_secp521r1,Directed,utilizes
+OpenSSL 3.0.17,sha-512,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_secp521r1,Directed,utilizes
+OpenSSL 3.0.17,aes-128,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,rsa-2048,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_secp521r1,Directed,utilizes
+OpenSSL 3.0.17,aes-128,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,ed25519,Directed,utilizes
+OpenSSL 3.0.17,sha-512,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_secp521r1,Directed,utilizes
+OpenSSL 3.0.17,aes-128,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,ecdsa_secp256r1,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_secp521r1,Directed,utilizes
+OpenSSL 3.0.17,aes-128,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,ecdsa_secp384r1,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_secp521r1,Directed,utilizes
+OpenSSL 3.0.17,aes-128,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,rsa-2048,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_secp521r1,Directed,utilizes
+OpenSSL 3.0.17,aes-128,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,ed448,Directed,utilizes
+OpenSSL 3.0.17,shake256,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_secp521r1,Directed,utilizes
+OpenSSL 3.0.17,aes-128,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,rsa-2048,Directed,utilizes
+OpenSSL 3.0.17,sha-512,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_secp521r1,Directed,utilizes
+OpenSSL 3.0.17,chacha20,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,ecdsa_secp521r1,Directed,utilizes
+OpenSSL 3.0.17,sha-512,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_secp521r1,Directed,utilizes
+OpenSSL 3.0.17,chacha20,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,rsa-2048,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_secp521r1,Directed,utilizes
+OpenSSL 3.0.17,chacha20,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,ed25519,Directed,utilizes
+OpenSSL 3.0.17,sha-512,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_secp521r1,Directed,utilizes
+OpenSSL 3.0.17,chacha20,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,ecdsa_secp256r1,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_secp521r1,Directed,utilizes
+OpenSSL 3.0.17,chacha20,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,ecdsa_secp384r1,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_secp521r1,Directed,utilizes
+OpenSSL 3.0.17,chacha20,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,rsa-2048,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_secp521r1,Directed,utilizes
+OpenSSL 3.0.17,chacha20,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,ed448,Directed,utilizes
+OpenSSL 3.0.17,shake256,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_secp521r1,Directed,utilizes
+OpenSSL 3.0.17,chacha20,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,rsa-2048,Directed,utilizes
+OpenSSL 3.0.17,sha-512,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_secp521r1,Directed,utilizes
+OpenSSL 3.0.17,aes-256,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+OpenSSL 3.0.17,ecdsa_secp521r1,Directed,utilizes
+OpenSSL 3.0.17,sha-512,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_secp521r1,Directed,utilizes
+OpenSSL 3.0.17,aes-256,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+OpenSSL 3.0.17,rsa-2048,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_secp521r1,Directed,utilizes
+OpenSSL 3.0.17,aes-256,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+OpenSSL 3.0.17,ed25519,Directed,utilizes
+OpenSSL 3.0.17,sha-512,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_secp521r1,Directed,utilizes
+OpenSSL 3.0.17,aes-256,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+OpenSSL 3.0.17,ecdsa_secp256r1,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_secp521r1,Directed,utilizes
+OpenSSL 3.0.17,aes-256,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+OpenSSL 3.0.17,ecdsa_secp384r1,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_secp521r1,Directed,utilizes
+OpenSSL 3.0.17,aes-256,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+OpenSSL 3.0.17,rsa-2048,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_secp521r1,Directed,utilizes
+OpenSSL 3.0.17,aes-256,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+OpenSSL 3.0.17,ed448,Directed,utilizes
+OpenSSL 3.0.17,shake256,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_secp521r1,Directed,utilizes
+OpenSSL 3.0.17,aes-256,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+OpenSSL 3.0.17,rsa-2048,Directed,utilizes
+OpenSSL 3.0.17,sha-512,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_secp384r1,Directed,utilizes
+OpenSSL 3.0.17,aes-128,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,ecdsa_secp521r1,Directed,utilizes
+OpenSSL 3.0.17,sha-512,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_secp384r1,Directed,utilizes
+OpenSSL 3.0.17,aes-128,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,rsa-2048,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_secp384r1,Directed,utilizes
+OpenSSL 3.0.17,aes-128,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,ed25519,Directed,utilizes
+OpenSSL 3.0.17,sha-512,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_secp384r1,Directed,utilizes
+OpenSSL 3.0.17,aes-128,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,ecdsa_secp256r1,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_secp384r1,Directed,utilizes
+OpenSSL 3.0.17,aes-128,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,ecdsa_secp384r1,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_secp384r1,Directed,utilizes
+OpenSSL 3.0.17,aes-128,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,rsa-2048,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_secp384r1,Directed,utilizes
+OpenSSL 3.0.17,aes-128,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,ed448,Directed,utilizes
+OpenSSL 3.0.17,shake256,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_secp384r1,Directed,utilizes
+OpenSSL 3.0.17,aes-128,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,rsa-2048,Directed,utilizes
+OpenSSL 3.0.17,sha-512,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_secp384r1,Directed,utilizes
+OpenSSL 3.0.17,chacha20,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,ecdsa_secp521r1,Directed,utilizes
+OpenSSL 3.0.17,sha-512,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_secp384r1,Directed,utilizes
+OpenSSL 3.0.17,chacha20,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,rsa-2048,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_secp384r1,Directed,utilizes
+OpenSSL 3.0.17,chacha20,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,ed25519,Directed,utilizes
+OpenSSL 3.0.17,sha-512,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_secp384r1,Directed,utilizes
+OpenSSL 3.0.17,chacha20,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,ecdsa_secp256r1,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_secp384r1,Directed,utilizes
+OpenSSL 3.0.17,chacha20,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,ecdsa_secp384r1,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_secp384r1,Directed,utilizes
+OpenSSL 3.0.17,chacha20,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,rsa-2048,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_secp384r1,Directed,utilizes
+OpenSSL 3.0.17,chacha20,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,ed448,Directed,utilizes
+OpenSSL 3.0.17,shake256,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_secp384r1,Directed,utilizes
+OpenSSL 3.0.17,chacha20,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,rsa-2048,Directed,utilizes
+OpenSSL 3.0.17,sha-512,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_secp384r1,Directed,utilizes
+OpenSSL 3.0.17,aes-256,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+OpenSSL 3.0.17,ecdsa_secp521r1,Directed,utilizes
+OpenSSL 3.0.17,sha-512,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_secp384r1,Directed,utilizes
+OpenSSL 3.0.17,aes-256,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+OpenSSL 3.0.17,rsa-2048,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_secp384r1,Directed,utilizes
+OpenSSL 3.0.17,aes-256,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+OpenSSL 3.0.17,ed25519,Directed,utilizes
+OpenSSL 3.0.17,sha-512,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_secp384r1,Directed,utilizes
+OpenSSL 3.0.17,aes-256,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+OpenSSL 3.0.17,ecdsa_secp256r1,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_secp384r1,Directed,utilizes
+OpenSSL 3.0.17,aes-256,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+OpenSSL 3.0.17,ecdsa_secp384r1,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_secp384r1,Directed,utilizes
+OpenSSL 3.0.17,aes-256,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+OpenSSL 3.0.17,rsa-2048,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_secp384r1,Directed,utilizes
+OpenSSL 3.0.17,aes-256,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+OpenSSL 3.0.17,ed448,Directed,utilizes
+OpenSSL 3.0.17,shake256,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_secp384r1,Directed,utilizes
+OpenSSL 3.0.17,aes-256,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+OpenSSL 3.0.17,rsa-2048,Directed,utilizes
+OpenSSL 3.0.17,sha-512,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_x448,Directed,utilizes
+OpenSSL 3.0.17,aes-128,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,ecdsa_secp521r1,Directed,utilizes
+OpenSSL 3.0.17,sha-512,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_x448,Directed,utilizes
+OpenSSL 3.0.17,aes-128,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,rsa-2048,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_x448,Directed,utilizes
+OpenSSL 3.0.17,aes-128,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,ed25519,Directed,utilizes
+OpenSSL 3.0.17,sha-512,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_x448,Directed,utilizes
+OpenSSL 3.0.17,aes-128,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,ecdsa_secp256r1,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_x448,Directed,utilizes
+OpenSSL 3.0.17,aes-128,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,ecdsa_secp384r1,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_x448,Directed,utilizes
+OpenSSL 3.0.17,aes-128,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,rsa-2048,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_x448,Directed,utilizes
+OpenSSL 3.0.17,aes-128,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,ed448,Directed,utilizes
+OpenSSL 3.0.17,shake256,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_x448,Directed,utilizes
+OpenSSL 3.0.17,aes-128,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,rsa-2048,Directed,utilizes
+OpenSSL 3.0.17,sha-512,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_x448,Directed,utilizes
+OpenSSL 3.0.17,chacha20,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,ecdsa_secp521r1,Directed,utilizes
+OpenSSL 3.0.17,sha-512,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_x448,Directed,utilizes
+OpenSSL 3.0.17,chacha20,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,rsa-2048,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_x448,Directed,utilizes
+OpenSSL 3.0.17,chacha20,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,ed25519,Directed,utilizes
+OpenSSL 3.0.17,sha-512,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_x448,Directed,utilizes
+OpenSSL 3.0.17,chacha20,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,ecdsa_secp256r1,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_x448,Directed,utilizes
+OpenSSL 3.0.17,chacha20,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,ecdsa_secp384r1,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_x448,Directed,utilizes
+OpenSSL 3.0.17,chacha20,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,rsa-2048,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_x448,Directed,utilizes
+OpenSSL 3.0.17,chacha20,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,ed448,Directed,utilizes
+OpenSSL 3.0.17,shake256,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_x448,Directed,utilizes
+OpenSSL 3.0.17,chacha20,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,rsa-2048,Directed,utilizes
+OpenSSL 3.0.17,sha-512,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_x448,Directed,utilizes
+OpenSSL 3.0.17,aes-256,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+OpenSSL 3.0.17,ecdsa_secp521r1,Directed,utilizes
+OpenSSL 3.0.17,sha-512,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_x448,Directed,utilizes
+OpenSSL 3.0.17,aes-256,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+OpenSSL 3.0.17,rsa-2048,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_x448,Directed,utilizes
+OpenSSL 3.0.17,aes-256,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+OpenSSL 3.0.17,ed25519,Directed,utilizes
+OpenSSL 3.0.17,sha-512,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_x448,Directed,utilizes
+OpenSSL 3.0.17,aes-256,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+OpenSSL 3.0.17,ecdsa_secp256r1,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_x448,Directed,utilizes
+OpenSSL 3.0.17,aes-256,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+OpenSSL 3.0.17,ecdsa_secp384r1,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_x448,Directed,utilizes
+OpenSSL 3.0.17,aes-256,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+OpenSSL 3.0.17,rsa-2048,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_x448,Directed,utilizes
+OpenSSL 3.0.17,aes-256,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+OpenSSL 3.0.17,ed448,Directed,utilizes
+OpenSSL 3.0.17,shake256,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ecdh_x448,Directed,utilizes
+OpenSSL 3.0.17,aes-256,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+OpenSSL 3.0.17,rsa-2048,Directed,utilizes
+OpenSSL 3.0.17,sha-512,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe6144_supported,Directed,utilizes
+OpenSSL 3.0.17,aes-128,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,ecdsa_secp521r1,Directed,utilizes
+OpenSSL 3.0.17,sha-512,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe6144_supported,Directed,utilizes
+OpenSSL 3.0.17,aes-128,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,rsa-2048,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe6144_supported,Directed,utilizes
+OpenSSL 3.0.17,aes-128,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,ed25519,Directed,utilizes
+OpenSSL 3.0.17,sha-512,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe6144_supported,Directed,utilizes
+OpenSSL 3.0.17,aes-128,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,ecdsa_secp256r1,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe6144_supported,Directed,utilizes
+OpenSSL 3.0.17,aes-128,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,ecdsa_secp384r1,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe6144_supported,Directed,utilizes
+OpenSSL 3.0.17,aes-128,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,rsa-2048,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe6144_supported,Directed,utilizes
+OpenSSL 3.0.17,aes-128,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,ed448,Directed,utilizes
+OpenSSL 3.0.17,shake256,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe6144_supported,Directed,utilizes
+OpenSSL 3.0.17,aes-128,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,rsa-2048,Directed,utilizes
+OpenSSL 3.0.17,sha-512,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe6144_supported,Directed,utilizes
+OpenSSL 3.0.17,chacha20,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,ecdsa_secp521r1,Directed,utilizes
+OpenSSL 3.0.17,sha-512,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe6144_supported,Directed,utilizes
+OpenSSL 3.0.17,chacha20,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,rsa-2048,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe6144_supported,Directed,utilizes
+OpenSSL 3.0.17,chacha20,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,ed25519,Directed,utilizes
+OpenSSL 3.0.17,sha-512,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe6144_supported,Directed,utilizes
+OpenSSL 3.0.17,chacha20,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,ecdsa_secp256r1,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe6144_supported,Directed,utilizes
+OpenSSL 3.0.17,chacha20,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,ecdsa_secp384r1,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe6144_supported,Directed,utilizes
+OpenSSL 3.0.17,chacha20,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,rsa-2048,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe6144_supported,Directed,utilizes
+OpenSSL 3.0.17,chacha20,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,ed448,Directed,utilizes
+OpenSSL 3.0.17,shake256,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe6144_supported,Directed,utilizes
+OpenSSL 3.0.17,chacha20,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+OpenSSL 3.0.17,rsa-2048,Directed,utilizes
+OpenSSL 3.0.17,sha-512,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe6144_supported,Directed,utilizes
+OpenSSL 3.0.17,aes-256,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+OpenSSL 3.0.17,ecdsa_secp521r1,Directed,utilizes
+OpenSSL 3.0.17,sha-512,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe6144_supported,Directed,utilizes
+OpenSSL 3.0.17,aes-256,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+OpenSSL 3.0.17,rsa-2048,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe6144_supported,Directed,utilizes
+OpenSSL 3.0.17,aes-256,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+OpenSSL 3.0.17,ed25519,Directed,utilizes
+OpenSSL 3.0.17,sha-512,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe6144_supported,Directed,utilizes
+OpenSSL 3.0.17,aes-256,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+OpenSSL 3.0.17,ecdsa_secp256r1,Directed,utilizes
+OpenSSL 3.0.17,sha-256,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe6144_supported,Directed,utilizes
+OpenSSL 3.0.17,aes-256,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+OpenSSL 3.0.17,ecdsa_secp384r1,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe6144_supported,Directed,utilizes
+OpenSSL 3.0.17,aes-256,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+OpenSSL 3.0.17,rsa-2048,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe6144_supported,Directed,utilizes
+OpenSSL 3.0.17,aes-256,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+OpenSSL 3.0.17,ed448,Directed,utilizes
+OpenSSL 3.0.17,shake256,Directed,utilizes
+Local_Research_Node,Data In Transit,Directed,contains
+Data In Transit,TLS 1.3,Directed,carries
+TLS 1.3,OpenSSL 3.0.17,Directed,implemented_by
+OpenSSL 3.0.17,ffdhe6144_supported,Directed,utilizes
+OpenSSL 3.0.17,aes-256,Directed,utilizes
+OpenSSL 3.0.17,sha-384,Directed,utilizes
+OpenSSL 3.0.17,rsa-2048,Directed,utilizes
+OpenSSL 3.0.17,sha-512,Directed,utilizes

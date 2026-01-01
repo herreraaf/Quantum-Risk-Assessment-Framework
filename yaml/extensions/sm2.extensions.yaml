@@ -1,0 +1,10 @@
+extends: SM2
+variants:
+  - id: SM2
+    name: sm2p256v1
+    oid: 
+    securityLevel: 128
+    q_p: 0.75
+
+# Risk Notes
+notes: "SM2 is considered the Chinese equivalent to ECDSA/P-256. Risk level is currently Low for classical computing but High for Shor's algorithm."

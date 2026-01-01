@@ -1,0 +1,48 @@
+- composition_id: supernode_000
+  implementation: GmSSL 3.1.2 Dev
+  label: SM2 / SM4 / SM3
+  primitives:
+  - role: Key_Exchange
+    math: Elliptic Curve (SM2)
+    curve: sm2p256v1
+    qsi: 0.0
+    id: SM2
+  - role: Encryption
+    math: Symmetric Block Cipher
+    bits: 128
+    qsi: 0.5
+    id: SM4
+  - role: Hash
+    math: Cryptographic Hash
+    bits: 256
+    qsi: 0.9
+    id: SM3
+- composition_id: supernode_001
+  implementation: OpenSSL 3.0.17
+  label: ffdhe4096 / TLS_AES_128_GCM_SHA256 / rsa_pss_rsae_sha384
+  primitives:
+  - role: Key_Exchange
+    math: Finite Field DH
+    bits: 4096
+    qsi: 0.0
+    id: ffdhe4096
+  - role: Encryption
+    math: AES-GCM
+    bits: 128
+    qsi: 0.5
+    id: TLS_AES_128_GCM_SHA256
+  - role: Authentication
+    math: RSA-PSS
+    baseline: RSA-2048
+    qsi: 0.0
+    id: rsa_pss_rsae_sha384
+- composition_id: supernode_002
+  implementation: OpenSSL 3.0.17
+  label: secp256r1 / TLS_AES_256_GCM_SHA384 / ecdsa_secp256r1_sha256
+  primitives:
+  - id: secp256r1
+    qsi: unknown
+  - id: TLS_AES_256_GCM_SHA384
+    qsi: unknown
+  - id: ecdsa_secp256r1_sha256
+    qsi: unknown

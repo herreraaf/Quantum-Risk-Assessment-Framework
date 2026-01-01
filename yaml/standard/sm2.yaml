@@ -1,0 +1,6 @@
+# SPDX-License-Identifier: CC0-1.0
+id: SM2
+name: SM2 Elliptic Curve Cryptography
+cryptoClass: Asymmetric-Key-Algorithm/Public-Key-Cipher
+oid: 1.2.156.10197.1.301
+commonkeySize: '256'

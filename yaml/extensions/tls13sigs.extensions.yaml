@@ -1,0 +1,85 @@
+# yaml/standard/suites/tls13sigs.extensions.yaml
+# SPDX-License-Identifier: CC0-1.0
+extends: tls13-sigs
+
+variants:
+  # --- ECDSA (Elliptic Curve Digital Signature primitive) ---
+  - id: "ecdsa_secp256r1_sha256"
+    iana_id: "0x0403"
+    components:
+      primitive: "ecdsa:ecdsa_secp256r1"
+      hash: "shax:sha-256"
+
+  - id: "ecdsa_secp384r1_sha384"
+    iana_id: "0x0503"
+    components:
+      primitive: "ecdsa:ecdsa_secp384r1"
+      hash: "shax:sha-384"
+
+  - id: "ecdsa_secp521r1_sha512"
+    iana_id: "0x0603"
+    components:
+      primitive: "ecdsa:ecdsa_secp521r1"
+      hash: "shax:sha-512"
+
+  # --- EdDSA (Edwards-curve Digital Signature primitive) ---
+  - id: "ed25519"
+    name: "ed25519"
+    iana_id: "0x0807"
+    components:
+      primitive: "eddsa:ed25519"
+      hash: "shax:sha-512" # Ed25519 uses SHA-512 internally
+
+  - id: "ed448"
+    name: "ed448"
+    iana_id: "0x0808"
+    components:
+      primitive: "eddsa:ed448"
+      hash: "shax:shake256"
+
+  # --- RSA-PSS (Modern Padding) ---
+  - id: "rsa_pss_rsae_sha256"
+    iana_id: "0x0804" # rsae (RSA encryption-capable keys)
+    components:
+      primitive: "rsa:rsa-2048"
+      hash: "shax:sha-256"
+
+
+  - id: "rsa_pss_pss_sha256"
+    iana_id: "0x0809" # pss (PSS-only keys)
+    components:
+      primitive: "rsa:rsa-2048"
+      hash: "shax:sha-256"
+  
+  - id: "rsa_pss_rsae_sha384"
+    iana_id: "0x0809" # pss (PSS-only keys)
+    components:
+      primitive: "rsa:rsa-2048"
+      hash: "shax:sha-384"
+
+  - id: "rsa_pss_rsae_sha512"
+    iana_id: "0x0809" # pss (PSS-only keys)
+    components:
+      primitive: "rsa:rsa-2048"
+      hash: "shax:sha-512"
+
+  # --- RSA-PKCS#1 v1.5 (Legacy Padding) ---
+  - id: "rsa_pkcs1_sha256"
+    iana_id: "0x0401"
+    components:
+      primitive: "rsa:rsa-2048"
+      hash: "shax:sha-256"
+
+  # --- DSA (Digital Signature primitive - Legacy/Deprecated) ---
+  - id: "dsa_sha256"
+    iana_id: "0x0402"
+    components:
+      primitive: "dsa:dsa"
+      hash: "shax:sha-256"
+
+  # --- Lower Security/Legacy Variants ---
+  - id: "ecdsa_sha224"
+    iana_id: "0x0303"
+    components:
+      primitive: "ecdsa:ecdsa"
+      hash: "shax:sha-224"

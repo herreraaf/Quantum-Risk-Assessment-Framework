@@ -1,0 +1,121 @@
+# SPDX-License-Identifier: CC0-1.0
+extends: shax
+mechanism: "Cryptographic Hash Function"
+quantumResistance: "High"
+standard: "FIPS 180-4 / FIPS 202"
+
+variants:
+  # --- SHA-1 (FIPS 180) ---
+  - id: sha1
+    name: SHA-1
+    oid: 1.3.14.3.2.26
+    collisionSecurityStrength: 80
+    css_q_p: 1
+    nistcollisionSecurityCategory: "<1"
+    preimageSecurityStrength: 160
+    pims_q_p: 0.5
+    nistpreimageSecurityCategory: "1"
+    note: "Legacy. NIST Category 1 for Preimage only; Collision resistance is formally deprecated."
+
+  # --- SHA-2 Family (FIPS 180) ---
+  - id: sha-224
+    name: SHA-224
+    oid: 2.16.840.1.101.3.4.2.4
+    collisionSecurityStrength: 112
+    css_q_p: 0.75
+    nistcollisionSecurityCategory: "<1"
+    preimageSecurityStrength: 224
+    pims_q_p: 0.25
+    nistpreimageSecurityCategory: "3"
+
+  - id: sha-256
+    name: SHA-256
+    oid: 2.16.840.1.101.3.4.2.1
+    collisionSecurityStrength: 128
+    css_q_p: 0.5
+    nistcollisionSecurityCategory: "2"
+    preimageSecurityStrength: 256
+    pims_q_p: 0
+    nistpreimageSecurityCategory: "5"
+
+  - id: sha-384
+    name: SHA-384
+    oid: 2.16.840.1.101.3.4.2.2
+    collisionSecurityStrength: 192
+    css_q_p: 0.25
+    nistcollisionSecurityCategory: "4"
+    preimageSecurityStrength: 384
+    pims_q_p: 0
+    nistpreimageSecurityCategory: "5"
+
+  - id: sha-512
+    name: SHA-512
+    oid: 2.16.840.1.101.3.4.2.3
+    collisionSecurityStrength: 256
+    css_q_p: 0
+    nistcollisionSecurityCategory: "5"
+    preimageSecurityStrength: 512
+    pims_q_p: 0
+    nistpreimageSecurityCategory: "5"
+
+  # --- SHA-3 Family (FIPS 202) ---
+  - id: sha3-224
+    name: SHA3-224
+    oid: 2.16.840.1.101.3.4.2.8
+    collisionSecurityStrength: 112
+    css_q_p: 0.75
+    nistcollisionSecurityCategory: "<1"
+    preimageSecurityStrength: 224
+    pims_q_p: 0.25
+    nistpreimageSecurityCategory: "3"
+
+  - id: sha3-256
+    name: SHA3-256
+    oid: 2.16.840.1.101.3.4.2.8
+    collisionSecurityStrength: 128
+    css_q_p: 0.5
+    nistcollisionSecurityCategory: "2"
+    preimageSecurityStrength: 256
+    pims_q_p: 0
+    nistpreimageSecurityCategory: "5"  
+
+  - id: shake128
+    name: SHAKE128
+    oid: 2.16.840.1.101.3.4.2.11
+    collisionSecurityStrength: 128
+    css_q_p: 0.5
+    nistcollisionSecurityCategory: "2"
+    preimageSecurityStrength: 128
+    pims_q_p: 0.5
+    nistpreimageSecurityCategory: "2"
+    note: "Security strength is limited by the maximum security of the XOF capacity."
+
+  - id: sha3-384
+    name: SHA3-384
+    oid: 2.16.840.1.101.3.4.2.8
+    collisionSecurityStrength: 192
+    css_q_p: 0.25
+    nistcollisionSecurityCategory: "4"
+    preimageSecurityStrength: 384
+    pims_q_p: 0
+    nistpreimageSecurityCategory: "5" 
+
+  - id: sha3-512
+    name: SHA3-512
+    oid: 2.16.840.1.101.3.4.2.8
+    collisionSecurityStrength: 256
+    css_q_p: 0
+    nistcollisionSecurityCategory: "5"
+    preimageSecurityStrength: 512
+    pims_q_p: 0
+    nistpreimageSecurityCategory: "5" 
+
+  - id: shake256
+    name: SHAKE256
+    oid: 2.16.840.1.101.3.4.2.12
+    collisionSecurityStrength: 256
+    css_q_p: 0
+    nistcollisionSecurityCategory: "5"
+    preimageSecurityStrength: 512
+    pims_q_p: 0
+    nistpreimageSecurityCategory: "5"

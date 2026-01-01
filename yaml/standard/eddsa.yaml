@@ -1,0 +1,8 @@
+# SPDX-License-Identifier: CC0-1.0
+id: eddsa
+name: Edwards-Curve Digital Signature Algorithm
+cryptoClass: Asymmetric-Key-Algorithm/Digital-Signature
+oid: 1.3.101.112 # Ed25519
+standard: "RFC 8032"
+commonkeySize: '256'
+specifiedkeySize: "{min: 256, max: 456}"

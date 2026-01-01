@@ -1,0 +1,39 @@
+# SPDX-License-Identifier: CC0-1.0
+extends: dhe
+mechanism: "FFDHE / MODP (Finite Field Diffie-Hellman Ephemeral)"
+
+variants:
+  - id: ffdhe2048_supported
+    name: ffdhe2048
+    #iana_id:
+    securityLevel: 112
+    q_p: 0.75
+    note: "Baseline for TLS 1.3; vulnerable to modern pre-computation attacks."
+
+  - id: ffdhe3072_supported
+    name: ffdhe3072
+    #iana_id:
+    securityLevel: 128
+    q_p: 0.75
+    note: "Standard 128-bit security; equivalent to AES-128."
+
+  - id: ffdhe4096_supported
+    name: ffdhe4096
+    #iana_id:
+    securityLevel: 150
+    q_p: 0.5
+    note: "High security; often used as a maximum in standard libraries."
+  
+  - id: ffdhe6144_supported
+    name: ffdhe6144
+    #iana_id: 
+    securityLevel: 192
+    q_p: 0.5
+    note: "Equivalent to AES-192; extremely high compute cost."
+
+  - id: ffdhe8192_supported
+    name: ffdhe8192 
+    #iana_id: 
+    securityLevel: 256
+    q_p: 0.25
+    note: "Equivalent to AES-256; highest standardized MODP group."

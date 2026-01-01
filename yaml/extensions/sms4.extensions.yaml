@@ -1,0 +1,8 @@
+extends: SMS4
+variants:
+  - id: SMS4
+    name: sm4
+    oid: 
+    securityLevel: 128
+    q_p: 0.5
+    

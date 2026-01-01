@@ -1,0 +1,61 @@
+# SPDX-License-Identifier: CC0-1.0
+extends: tls13-groups
+
+variants:
+  # --- Elliptic Curves (NIST / SECP) ---
+  - id: "secp256r1"
+    name: "secp256r1"
+    iana_id: "0x0017"
+    components:
+      primitive: "ecdh:ecdh_secp256r1"
+
+  - id: "secp384r1"
+    name: "secp384r1"
+    iana_id: "0x0018"
+    components:
+      primitive: "ecdh:ecdh_secp384r1"
+
+  - id: "secp521r1"
+    name: "secp521r1"
+    iana_id: "0x0019"
+    components:
+      primitive: "ecdh:ecdh_secp521r1"
+
+  # --- Montgomery Curves (Modern/High Speed) ---
+  - id: "ecdh_x25519"
+    name: "ecdh_x25519"
+    iana_id: "0x001d"
+    components:
+      primitive: "ecdh:ecdh_x25519"
+
+  - id: "ecdh_x448"
+    name: "ecdh_x448"
+    iana_id: "0x001e"
+    components:
+      primitive: "ecdh:ecdh_x448"
+
+  # --- Finite Field Diffie-Hellman (FFDHE) ---
+  - id: "ffdhe2048"
+    iana_id: "0x0100"
+    components:
+      primitive: "dhe:ffdhe2048_supported"
+
+  - id: "ffdhe3072"
+    iana_id: "0x0101"
+    components:
+      primitive: "dhe:ffdhe3072_supported"
+
+  - id: "ffdhe4096"
+    iana_id: "0x0102"
+    components:
+      primitive: "dhe:ffdhe4096_supported"
+
+  - id: "ffdhe6144"
+    iana_id: "0x0103"
+    components:
+      primitive: "dhe:ffdhe6144_supported"
+
+  - id: "ffdhe8192"
+    iana_id: "0x0104"
+    components:
+      primitive: "dhe:ffdhe8192_supported"

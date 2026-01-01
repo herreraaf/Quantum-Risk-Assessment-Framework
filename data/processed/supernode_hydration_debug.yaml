@@ -1,0 +1,82 @@
+- id: ECC-SM2
+  name: sm2p256v1
+  cryptoClass: Symmetric-Key-Algorithm/Block-Cipher
+  standard: null
+  gmssl_oid: 1.2.156.10197.1.301
+  components:
+    primitive: sm2:SM2
+  parent_id: tlcp-groups
+  resolved_components:
+    primitive:
+      id: SM2
+      name: sm2p256v1
+      cryptoClass: Asymmetric-Key-Algorithm/Public-Key-Cipher
+      oid: null
+      commonkeySize: '256'
+      securityLevel: 128
+      q_p: 0.75
+      parent_id: SM2
+- id: ECC_SM4_CBC_SM3
+  name: TLCP Cipher Suite
+  cryptoClass: Protocol/Cipher-Suite
+  standard: null
+  gmssl_oid: null
+  components:
+    primitive: sms4:SMS4
+    mode: mode:cbc
+    hash: sm3:SM3
+  parent_id: tlcp-suites
+  resolved_components:
+    primitive:
+      id: SMS4
+      name: sm4
+      cryptoClass: Symmetric-Key-Algorithm/Block-Cipher
+      oid: null
+      commonkeySize: '128'
+      securityLevel: 128
+      q_p: 0.5
+      parent_id: SMS4
+    mode:
+      id: cbc
+      status: MISSING
+    hash:
+      id: SM3
+      name: sm3
+      cryptoClass: Cryptographic-Hash-Function/Hash-Function
+      oid: null
+      'commonkeySize:': '256'
+      collisionSecurityStrength: 128
+      css_q_p: 0.5
+      preimageSecurityStrength: 256
+      pims_q_p: 0
+      parent_id: SM3
+- id: SM2-with-SM3
+  name: sm2_with_sm3
+  cryptoClass: Asymmetric-Key-Algorithm/Digital-Signature
+  standard: null
+  gmssl_oid: 1.2.156.10197.1.501
+  components:
+    primitive: sm2:SM2
+    hash: sm3:SM3
+  parent_id: tlcp-sigs
+  resolved_components:
+    primitive:
+      id: SM2
+      name: sm2p256v1
+      cryptoClass: Asymmetric-Key-Algorithm/Public-Key-Cipher
+      oid: null
+      commonkeySize: '256'
+      securityLevel: 128
+      q_p: 0.75
+      parent_id: SM2
+    hash:
+      id: SM3
+      name: sm3
+      cryptoClass: Cryptographic-Hash-Function/Hash-Function
+      oid: null
+      'commonkeySize:': '256'
+      collisionSecurityStrength: 128
+      css_q_p: 0.5
+      preimageSecurityStrength: 256
+      pims_q_p: 0
+      parent_id: SM3

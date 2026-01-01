@@ -1,0 +1,5 @@
+# SPDX-License-Identifier: CC0-1.0
+id: tls13-suites
+name: TLS13 Cipher Suites
+cryptoClass: Protocol/Cipher-Suite
+standard: "RFC 8446 (TLS 1.3)"

@@ -1,0 +1,45 @@
+# SPDX-License-Identifier: CC0-1.0
+extends: ecdh
+mechanism: "Elliptic Curve Diffie-Hellman (ECDH/ECDHE)"
+
+variants:
+    
+  - id: ecdh_secp256r1
+    name: "ecdh_secp256r1"
+    iana_id: 
+    oid: 1.2.840.10045.3.1.7
+    securityLevel: 128
+    q_p : 0.75
+    note: "Most widely used curve globally. Standard in SSL/TLS."
+
+  - id: ecdh_secp384r1
+    name: "ecdh_secp384r1"
+    iana_id:
+    oid: 1.3.132.0.34
+    securityLevel: 192
+    q_p: 0.5
+    note: "Commonly used for 'Suite B' high-security communications."
+
+  - id: ecdh_secp521r1
+    name: "ecdh_secp521r1"
+    iana_id:
+    oid: 1.3.132.0.35
+    securityLevel: 256
+    q_p: 0.25
+    note: "The strongest NIST curve; rarely used due to high compute cost."
+  
+  - id: ecdh_x25519
+    name: ecdh_x25519
+    iana_id:
+    oid: 1.3.101.110
+    securityLevel: 128
+    q_p: 0.75
+    note: "The default choice for TLS 1.3. Best balance of speed and security."
+
+  - id: ecdh_x448
+    name: ecdh_x448
+    iana_id: 
+    oid: 1.3.101.111
+    securityLevel: 224
+    q_p: 0.5
+    note: "High-strength 'Goldilocks' curve. Slower than X25519."

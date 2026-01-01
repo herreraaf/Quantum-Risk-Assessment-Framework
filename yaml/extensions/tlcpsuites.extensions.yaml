@@ -1,0 +1,10 @@
+# SPDX-License-Identifier: CC0-1.0
+extends: tlcp-suites
+
+variants:
+  - id: "ECC_SM4_CBC_SM3"
+    gmssl_oid: 
+    components:
+      primitive: "sms4:SMS4"
+      mode: "mode:cbc"
+      hash: "sm3:SM3"

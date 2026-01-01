@@ -1,0 +1,25 @@
+# SPDX-License-Identifier: CC0-1.0
+extends: tls13-suites
+
+variants:
+  - id: "TLS_AES_128_GCM_SHA256"
+    iana_id: "0x1301" 
+    components:
+      primitive: "aes:aes-128"
+      mode: "mode:gcm"
+      hash: "shax:sha-256"
+
+  - id: "TLS_AES_256_GCM_SHA384"
+    iana_id: "0x1302"
+    components:
+      primitive: "aes:aes-256"
+      mode: "mode:gcm"
+      hash: "shax:sha-384"
+
+  - id: "TLS_CHACHA20_POLY1305_SHA256"
+    iana_id: "0x1303" 
+    components:
+      primitive: "chacha:chacha20"
+      mode: "mode:poly1305"
+      hash: "shax:sha-256"
+  

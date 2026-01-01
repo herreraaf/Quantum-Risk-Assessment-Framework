@@ -1,0 +1,34 @@
+Id,Label,Layer
+Local_Research_Node,Origin: Local_Research_Node,Layer 1
+Data In Transit,Domain: Data In Transit,Layer 2
+TLCP,Protocol: TLCP,Layer 3
+GmSSL 3.1.2 Dev,Implementation: GmSSL 3.1.2 Dev,Layer 4
+sm2_with_sm3,SM2-with-SM3,Layer 6
+0xe013,ECC_SM4_CBC_SM3,Layer 5
+0x74ada2ab5206c41d312b459d,Signing Cert: 0x74ada2ab...,Layer 5.5
+0x00f35f1f5354ba472d3cd57e90,Encryption Cert: 0x00f35f1f...,Layer 5.5
+TLS 1.3,Protocol: TLS 1.3,Layer 3
+OpenSSL 3.0.17,Implementation: OpenSSL 3.0.17,Layer 4
+0x1301,TLS_AES_128_GCM_SHA256,Layer 5
+0x1302,TLS_AES_256_GCM_SHA384,Layer 5
+0x1303,TLS_CHACHA20_POLY1305_SHA256,Layer 5
+secp256r1,secp256r1,Layer 5
+secp384r1,secp384r1,Layer 5
+ecdh_x25519,ecdh_x25519,Layer 5
+ecdh_x448,ecdh_x448,Layer 5
+secp521r1,secp521r1,Layer 5
+ffdhe2048,ffdhe2048,Layer 5
+ffdhe3072,ffdhe3072,Layer 5
+ffdhe4096,ffdhe4096,Layer 5
+ffdhe6144,ffdhe6144,Layer 5
+ffdhe8192,ffdhe8192,Layer 5
+0x0403,ecdsa_secp256r1_sha256,Layer 5
+0x0503,ecdsa_secp384r1_sha384,Layer 5
+0x0603,ecdsa_secp521r1_sha512,Layer 5
+0x0807,ed25519,Layer 5
+0x0808,ed448,Layer 5
+0x0804,rsa_pss_rsae_sha256,Layer 5
+0x0805,rsa_pss_rsae_sha384,Layer 5
+0x0806,rsa_pss_rsae_sha512,Layer 5
+304502210096c410533a96ec610ab80ce7facc32279e92433d0dd2c3601446390f71599f33022027b5d94327831d9d6c4d353e4077a6b3d23ad3e536a6dccb3cb6d47ee0b47dda,Standard Cert: 3045022100...,Layer 5.5
+ecdsa_with_sha256,ecdsa-with-SHA256,Layer 6

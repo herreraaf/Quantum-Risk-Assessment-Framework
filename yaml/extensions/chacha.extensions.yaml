@@ -1,0 +1,18 @@
+# SPDX-License-Identifier: CC0-1.0
+extends: chacha
+mechanism: "Stream Cipher based on ARX (Add-Rotate-Xor)"
+standard: "RFC 8439"
+
+variants:
+  - id: chacha20
+    name: ChaCha20
+    securityLevel: 256
+    q_p : 0
+    note: "The core 20-round stream cipher. Highly efficient in software."
+
+  - id: chacha20-poly1305
+    name: ChaCha20-Poly1305 AEAD
+    iana_id: "0x13,0x03"
+    oid: 1.2.840.113549.1.9.16.5.1
+    securityLevel: 256
+    note: "The standard AEAD construction used in TLS 1.3 and WireGuard."

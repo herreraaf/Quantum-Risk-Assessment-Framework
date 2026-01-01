@@ -1,0 +1,46 @@
+# SPDX-License-Identifier: CC0-1.0
+# Layer 6: Operational Modes Primitive Library
+variants:
+  - id: "mode:gcm"
+    name: "Galois/Counter Mode"
+    category: "AEAD"
+    security_level:
+    description: "High-performance authenticated encryption. Standard for TLS 1.3."
+    vulnerability_profile:
+      padding_oracle: "immune"
+      nonce_misuse: "critical" # GCM fails if nonce is reused
+    quantum_risk:
+    note: "Primary mode for AES-GCM suites."
+
+  - id: "mode:ccm"
+    name: "Counter with CBC-MAC"
+    category: "AEAD"
+    security_level:
+    description: "Authenticated encryption used in constrained environments (IoT)."
+    vulnerability_profile:
+      padding_oracle: "immune"
+      performance: "slower" # Requires two passes over the data
+    quantum_risk:
+    note: "Used in TLS_AES_128_CCM_SHA256 (0x1304)."
+
+  - id: "mode:poly1305"
+    name: "ChaCha20-Poly1305"
+    category: "AEAD"
+    security_level: 
+    description: "Stream-based authenticated encryption."
+    vulnerability_profile:
+      software_optimization: "excellent"
+      nonce_misuse: "critical"
+    quantum_risk:
+    note: "Used for mobile/low-power devices."
+
+  - id: "mode:cbc"
+    name: "Cipher Block Chaining"
+    category: "Block-Mode (Non-AEAD)"
+    security_level:
+    description: "Legacy mode requiring separate MAC for integrity."
+    vulnerability_profile:
+      padding_oracle: "high_risk" # Lucky13, POODLE attacks
+      m_t_e_flaw: "vulnerable"   # MAC-then-Encrypt is risky
+    quantum_risk: 
+    note: "Used in TLCP (SM4-CBC) and TLS 1.2 legacy suites."

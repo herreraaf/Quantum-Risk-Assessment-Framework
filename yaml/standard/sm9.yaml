@@ -1,0 +1,6 @@
+# SPDX-License-Identifier: CC0-1.0
+id: SM9
+name: SM9 Identity-Based Cryptography
+cryptoClass: Asymmetric-Key-Algorithm/Identity-Based-Encryption
+oid: 1.2.156.10197.1.302
+commonkeySize: '256'

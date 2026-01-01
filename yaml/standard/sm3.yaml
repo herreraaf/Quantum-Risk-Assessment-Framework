@@ -1,0 +1,6 @@
+# SPDX-License-Identifier: CC0-1.0
+id: SM3
+name: SM3 Cryptographic Hash Algorithm
+cryptoClass: Cryptographic-Hash-Function/Hash-Function
+oid: 1.2.156.10197.1.401
+commonkeySize:: '256'

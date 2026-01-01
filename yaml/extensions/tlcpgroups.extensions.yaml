@@ -1,0 +1,9 @@
+# SPDX-License-Identifier: CC0-1.0
+extends: tlcp-groups
+
+variants:
+  - id: "ECC-SM2"
+    name: sm2p256v1
+    gmssl_oid: "1.2.156.10197.1.301" 
+    components:
+      primitive: "sm2:SM2"

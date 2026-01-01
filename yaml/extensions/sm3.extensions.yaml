@@ -1,0 +1,10 @@
+extends: SM3
+variants:
+  - id: SM3
+    name: sm3
+    oid: 
+    collisionSecurityStrength: 128
+    css_q_p: 0.5
+    preimageSecurityStrength: 256
+    pims_q_p: 0
+
