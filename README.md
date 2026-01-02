@@ -1,2 +1,5 @@
 ### Implementation
-The code supporting the paper "A Graph-Based Framework for Cryptographic Risk Modeling in the Post-Quantum Transition: TLS 1.3 and TLCP Analysis" can be found in: `data/processed/simulation_engine.ipynb`.
+This repository contains the implementation of a graph-based framework for cryptographic risk modeling, with a focus on modern secure communication protocols and post-quantum transition analysis.
+
+The main implementation can be found in:
+`data/processed/simulation_engine.ipynb`
